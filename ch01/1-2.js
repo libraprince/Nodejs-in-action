@@ -1,7 +1,5 @@
-const http = require('http');
-const  port =8080;
+const http = require('http'),port =8080; 
 const server = http.createServer((req,res)=>{
-
     res.end('nihao');
 });
 server.listen(port,()=>{
